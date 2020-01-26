@@ -3,25 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Case2.Classes;
-using Case2.Classes2;
+using SecondCase.Classes;
 
-
-namespace Case2
+namespace SecondCase
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Product product = new Product();
-
-            //// İlgili gözlemleyicimizi product nesnemize ekliyoruz ki değişim sonrasında notify edebilelim.
-            //product.Attach(new CustomerObserver());
-
-            //// Ürün stoğunu değiştiriyoruz.
-            //product.ChangeStock();
-
-
             var eventProducer = new EventProducer();
 
             var rnd = new Random();
@@ -37,4 +26,3 @@ namespace Case2
         }
     }
 }
-

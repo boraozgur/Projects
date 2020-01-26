@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E570A965-C37F-4957-B349-9A78EF822A27}</ProjectGuid>
+    <ProjectGuid>{90F575D3-9F30-462A-84FB-F21ACF319569}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Case2</RootNamespace>
-    <AssemblyName>Case2</AssemblyName>
+    <RootNamespace>SecondCase</RootNamespace>
+    <AssemblyName>SecondCase</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes2\Event.cs" />
-    <Compile Include="Classes2\EventConsumer.cs" />
-    <Compile Include="Classes2\EventProducer.cs" />
-    <Compile Include="Classes\CustomerObserver.cs" />
-    <Compile Include="Classes\Observer.cs" />
-    <Compile Include="Classes\Product.cs" />
+    <Compile Include="Classes\Event.cs" />
+    <Compile Include="Classes\EventConsumer.cs" />
+    <Compile Include="Classes\EventProducer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Case2.Classes2
+namespace SecondCase.Classes
 {
     abstract class Event
     {

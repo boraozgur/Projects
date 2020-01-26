@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Case2.Classes2
+namespace SecondCase.Classes
 {
     class EventConsumer : Event
     {
@@ -14,12 +14,9 @@ namespace Case2.Classes2
         }
 
 
-
-
         public override void Update(int alertIndex)
         {
             Console.WriteLine($"Alert index number {alertIndex} priority {Priority}");
-            //Console.ReadKey();
         }
     }
 }

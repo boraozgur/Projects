@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Case2.Classes2
+namespace SecondCase.Classes
 {
     class EventProducer
     {
@@ -22,20 +22,17 @@ namespace Case2.Classes2
 
         private void Notify(int alertIndex)
         {
-            // Herhangi bir değişiklik olduğunda gözlemleyicilerimizin Update metotunu tetikleterek istenilen aksiyonu gerçekleştirebiliriz. Örneğin: Kullanıcılara e-posta atmak gibi düşünebilirsiniz.
-            //_events.ForEach(o => { o.Update(alertIndex); });
-            var ec = (EventConsumer)_events[alertIndex];
-            ec.Update(alertIndex);
+            var eventConsumer = (EventConsumer)_events[alertIndex];
+            eventConsumer.Update(alertIndex);
         }
 
         public void ReadEvent()
         {
-            for (int i = 1; i < _events.Count-1; i++)
+            for (int i = 1; i < _events.Count - 1; i++)
             {
-                if (_events[i-1].Priority == _events[i].Priority && _events[i].Priority == _events[i+1].Priority)
+                if (_events[i - 1].Priority == _events[i].Priority && _events[i].Priority == _events[i + 1].Priority)
                 {
                     this.Notify(i);
-
 
                     i = i + 2;
 
@@ -43,11 +40,7 @@ namespace Case2.Classes2
                         return;
 
                 }
-            }
-
-
-            //... stok değiştirilme işlemleri
-            // Stok değiştirildiğinde gözlemcilerimize bildiriyoruz.            
+            }          
         }
     }
 }

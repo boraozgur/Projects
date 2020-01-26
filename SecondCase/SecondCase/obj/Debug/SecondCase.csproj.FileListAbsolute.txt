@@ -1,0 +1,6 @@
+C:\Users\bora.ozgur\Desktop\SecondCase\SecondCase\bin\Debug\SecondCase.exe.config
+C:\Users\bora.ozgur\Desktop\SecondCase\SecondCase\bin\Debug\SecondCase.exe
+C:\Users\bora.ozgur\Desktop\SecondCase\SecondCase\bin\Debug\SecondCase.pdb
+C:\Users\bora.ozgur\Desktop\SecondCase\SecondCase\obj\Debug\SecondCase.csprojResolveAssemblyReference.cache
+C:\Users\bora.ozgur\Desktop\SecondCase\SecondCase\obj\Debug\SecondCase.exe
+C:\Users\bora.ozgur\Desktop\SecondCase\SecondCase\obj\Debug\SecondCase.pdb
