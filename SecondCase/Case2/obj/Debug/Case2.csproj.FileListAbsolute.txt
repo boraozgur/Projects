@@ -1,0 +1,12 @@
+C:\Users\bora.ozgur\Desktop\Case2\Case2\bin\Debug\Case2.exe.config
+C:\Users\bora.ozgur\Desktop\Case2\Case2\obj\Debug\Case2.csprojResolveAssemblyReference.cache
+C:\Users\bora.ozgur\Desktop\Case2\Case2\bin\Debug\Case2.exe
+C:\Users\bora.ozgur\Desktop\Case2\Case2\bin\Debug\Case2.pdb
+C:\Users\bora.ozgur\Desktop\Case2\Case2\obj\Debug\Case2.exe
+C:\Users\bora.ozgur\Desktop\Case2\Case2\obj\Debug\Case2.pdb
+C:\Users\bora.ozgur\Desktop\Projects\SecondCase\Case2\bin\Debug\Case2.exe.config
+C:\Users\bora.ozgur\Desktop\Projects\SecondCase\Case2\obj\Debug\Case2.exe
+C:\Users\bora.ozgur\Desktop\Projects\SecondCase\Case2\obj\Debug\Case2.pdb
+C:\Users\bora.ozgur\Desktop\Projects\SecondCase\Case2\bin\Debug\Case2.exe
+C:\Users\bora.ozgur\Desktop\Projects\SecondCase\Case2\bin\Debug\Case2.pdb
+C:\Users\bora.ozgur\Desktop\Projects\SecondCase\Case2\obj\Debug\Case2.csprojResolveAssemblyReference.cache
